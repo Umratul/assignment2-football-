@@ -179,14 +179,14 @@ footer img{
 mobile device 
 --------------*/
 @media only screen and (max-width:688px) {
-    .container{
+    .header-section, .container, .copa-america{
         width:100%;
     }
-    .left-header, .right-header, .players, footer{
+    .left-header, .right-header, .players,.finalist, .finalist-info footer{
        
         grid-template-columns: repeat(1,1fr);
     }
-    .player, .title-bar{
+    .player, .title-bar, .winner-image, .winner{
         flex-direction: column;
     } 
 }
