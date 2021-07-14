@@ -206,3 +206,17 @@ footer img{
         flex-direction: column;
     } 
 }
+
+/*------------ tablet device --------------*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .header-section, .container, .copa-america{
+        width:100%;
+    }
+    .left-header, .right-header, .players,.finalist, .finalist-info ,.footer{
+       
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player, .title-bar, .winner-image, .winner{
+        flex-direction: column;
+    } 
+}
