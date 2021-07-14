@@ -10,9 +10,7 @@ body{
     color: #FFFFFF;
 }
 
-/*----------- 
-style header
-------------- */
+/*----------- style header ------------- */
 .header-section{
     display: flex;
     justify-content: center;
@@ -68,9 +66,7 @@ style header
     transform: rotate(45deg);
 }
 
-/*----------- 
-players styles
-------------- */
+/*----------- players styles ------------- */
 .container{
     color:black;
     margin-top: 70px;
@@ -109,9 +105,7 @@ players styles
     font-size: 16px;
     margin: 10px 0px;
 }
-/* ---------
-    footer 
------------*/
+/* ------------   footer  -----------*/
 footer{
     width: 483.87px;
     height: 213px;  
@@ -139,9 +133,8 @@ footer img{
     margin: 0px 124px 56px 124px;
 }
 
-
-/* bonus section */
-
+/* -----------bonus section----------- */
+/*---------------- winner ------------- */
 .copa-america{
     display: flex;
     justify-content: center;
@@ -175,14 +168,37 @@ footer img{
     padding-bottom: 27px;
 }
 
-/*------------
-mobile device 
---------------*/
+/* ---------partners-------------- */
+.coma-america-partners{
+    width: 500;
+    height: 213px;  
+    margin: 158px 481px 63px 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coma-america-partners h1{
+
+    text-decoration: underline;
+    font-size: 50px;
+    color:#4a4592;
+    
+}
+.partners-logo{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+}
+.partners-logo img{
+    width: 100px;
+    height: 100px;
+}
+/*------------ mobile device --------------*/
 @media only screen and (max-width:688px) {
     .header-section, .container, .copa-america{
         width:100%;
     }
-    .left-header, .right-header, .players,.finalist, .finalist-info footer{
+    .left-header, .right-header, .players,.finalist, .finalist-info ,.footer{
        
         grid-template-columns: repeat(1,1fr);
     }
